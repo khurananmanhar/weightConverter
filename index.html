@@ -4,14 +4,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ranga:wght@700&display=swap" rel="stylesheet">
     <title>Weight Converter</title>
 </head>
 
 <body>
     <h1>Weight Converter</h1>
+    <div>
+        <h2><span id="og">Orignal Weight</span> -> <span id="new">New Weight</span></h2>
+    </div>
+
     <input type="text" id="weight">
-    <button>Kg -> Pounds</button>
-    <button>Pounds -> Kg</button>
+    <button onclick="kgToLb()" id="kgToLb">Kg -> Lbs</button>
+    <button onclick="lbToKg()">Pounds -> Lbs</button>
+    <script src="script.js"></script>
 </body>
+
 
 </html>

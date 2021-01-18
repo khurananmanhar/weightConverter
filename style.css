@@ -1,1 +1,39 @@
-
+    body {
+        background-color: #333;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+    
+    h1 {
+        color: #DFDFDF;
+        font-family: 'Ranga';
+    }
+    
+    h2 {
+        color: #DFDFDF;
+        font-family: 'Ranga';
+    }
+    
+    input[type=text] {
+        border: #2F3061 solid 8px;
+        width: 20rem;
+        height: 2rem;
+        font-size: 20px;
+        border-radius: 15px;
+        font-family: monospace;
+    }
+    
+    button {
+        background-color: #0E34A0;
+        color: #DFDFDF;
+        padding: 15px;
+        outline: none;
+        border: none;
+        margin: 1rem;
+        border-radius: 10px;
+        cursor: pointer;
+    }
