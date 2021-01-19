@@ -1,5 +1,5 @@
     body {
-        background-color: #333;
+        background-color: white;
         display: flex;
         flex-direction: column;
         text-align: center;
@@ -9,12 +9,12 @@
     }
     
     h1 {
-        color: #DFDFDF;
+        color: black;
         font-family: 'Ranga';
     }
     
     h2 {
-        color: #DFDFDF;
+        color: black;
         font-family: 'Ranga';
     }
     
@@ -28,12 +28,46 @@
     }
     
     button {
-        background-color: #0E34A0;
-        color: #DFDFDF;
+        background-color: steelblue;
+        color: white;
         padding: 15px;
         outline: none;
         border: none;
         margin: 1rem;
         border-radius: 10px;
         cursor: pointer;
+    }
+    
+    .button {
+        display: inline-block;
+    }
+    
+    .fa {
+        padding: 5px;
+        font-size: 30px;
+        width: 50px;
+        text-align: center;
+        text-decoration: none;
+        margin: 4rem 1rem;
+    }
+    /* Add a hover effect if you want */
+    
+    .fa:hover {
+        opacity: 0.7;
+    }
+    
+    .fa-github {
+        background-color: black;
+        color: white;
+        padding: 1rem;
+    }
+    
+    .fa-instagram {
+        background-color: black;
+        color: white;
+        padding: 1rem;
+    }
+    
+    .socials {
+        display: inline-block;
     }
